@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946708919265",
+    "project_id": "themoviedatabase-855f5",
+    "storage_bucket": "themoviedatabase-855f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946708919265:android:7814095650cd6c798f18a0",
+        "android_client_info": {
+          "package_name": "com.tmdb.lkr.the_movie_database"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7TrP-TiaWqSf1bk7h88Lm6vC0ZMnCjqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
