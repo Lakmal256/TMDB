@@ -25,7 +25,7 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
         locate<PopupController>().addItemFor(
           DismissiblePopup(
             title: "Password Reset Link Sent",
-            subtitle: "Password Reset Link Send Successfully",
+            subtitle: "Please Check Your Emails",
             color: Colors.green,
             onDismiss: (self) => locate<PopupController>().removeItem(self),
           ),
