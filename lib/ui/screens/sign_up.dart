@@ -147,10 +147,10 @@ class SignUpForm extends StatefulFormWidget<SignUpFormValue> {
   }) : super(key: key, controller: controller);
 
   @override
-  State<SignUpForm> createState() => _SignInFormState();
+  State<SignUpForm> createState() => _SignUpFormState();
 }
 
-class _SignInFormState extends State<SignUpForm> with FormMixin {
+class _SignUpFormState extends State<SignUpForm> with FormMixin {
   TextEditingController uNameTextEditingController = TextEditingController();
   TextEditingController pWDTextEditingController = TextEditingController();
   TextEditingController pWDConfirmTextEditingController = TextEditingController();

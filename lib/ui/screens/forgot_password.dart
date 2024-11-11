@@ -118,10 +118,10 @@ class ForgotPasswordForm extends StatefulFormWidget<ForgotPasswordFormValue> {
   }) : super(key: key, controller: controller);
 
   @override
-  State<ForgotPasswordForm> createState() => _SignInFormState();
+  State<ForgotPasswordForm> createState() => _ForgotPasswordFormState();
 }
 
-class _SignInFormState extends State<ForgotPasswordForm> with FormMixin {
+class _ForgotPasswordFormState extends State<ForgotPasswordForm> with FormMixin {
   TextEditingController uNameTextEditingController = TextEditingController();
 
   @override
